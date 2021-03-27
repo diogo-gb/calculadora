@@ -1,0 +1,169 @@
+Algoritmo "operador"
+//
+//
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 27/3/2021
+Var
+// Seção de Declarações das variáveis
+  operador: caracter
+
+
+
+procedimento Menu()
+
+var
+
+inicio
+
+
+   Escreval("  +   |   -   |   /   |    *   |")
+   Escreval("Escolha um operador: ")
+   Leia(operador)
+
+
+
+      escolha operador
+
+         caso "+"
+             Soma()
+
+         caso "-"
+             Subtracao()
+
+         caso "/"
+              Divisao()
+
+         caso "*"
+             Multiplicacao()
+
+         outrocaso
+
+         Menu()
+
+
+      fimescolha
+
+
+fimprocedimento
+
+
+
+
+procedimento Soma()
+
+var
+
+n1, n2, resultado : real
+
+
+inicio
+
+       Escreval("Digite o número 1: ")
+       Leia(n1)
+       Escreval("Digite o número 2: ")
+       Leia(n2)
+
+       resultado:= n1+n2
+
+       Escreval("Resultado: ",resultado)
+
+       Menu()
+
+
+fimprocedimento
+
+procedimento Subtracao()
+
+var
+
+n1, n2, resultado : real
+
+
+inicio
+
+       Escreval("Digite o número 1: ")
+       Leia(n1)
+       Escreval("Digite o número 2: ")
+       Leia(n2)
+
+       resultado:= n1-n2
+
+        Escreval("Resultado: ",resultado)
+
+       Menu()
+
+
+fimprocedimento
+
+
+procedimento Divisao()
+
+var
+
+n1, n2, resultado : real
+
+
+inicio
+
+       Escreval("Digite o número 1: ")
+       Leia(n1)
+       Escreval("Digite o número 2: ")
+       Leia(n2)
+
+       resultado:= n1/n2
+
+        Escreval("Resultado: ",resultado)
+
+       Menu()
+
+
+fimprocedimento
+
+
+procedimento Multiplicacao()
+
+var
+
+n1, n2, resultado : real
+
+
+inicio
+
+       Escreval("Digite o número 1: ")
+       Leia(n1)
+       Escreval("Digite o número 2: ")
+       Leia(n2)
+
+       resultado:= n1*n2
+
+        Escreval("Resultado: ",resultado)
+
+       Menu()
+
+
+fimprocedimento
+
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+
+
+   Escreval("--------------CALCULADORA--------------")
+   Escreval("Escolha um operador:")
+
+   Menu()
+
+
+
+
+
+
+
+
+
+
+
+Fimalgoritmo
